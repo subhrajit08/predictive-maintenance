@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+dist/
+.vite/
+
+# Environment Variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (keep package-lock.json)
+yarn.lock
+pnpm-lock.yaml
+
+# ESLint cache
+.eslintcache
+
+# Editor
+.vscode/
+.idea/
+*.swp
