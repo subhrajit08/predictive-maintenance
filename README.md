@@ -12,6 +12,7 @@ Industrial machines degrade over time. Unplanned failures are costly. This syste
 
 ## Project Structure
 
+```
 predictive-maintenance/
 ├── data/
 │   └── train_FD001.txt          # NASA CMAPSS dataset
@@ -36,6 +37,7 @@ predictive-maintenance/
 │       └── index.css
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -170,12 +172,9 @@ Open `http://localhost:3000`
 
 ---
 
-## Results
+## Result
 
-![F1 Comparison](outputs/f1_comparison.png)
 ![Confusion Matrices](outputs/confusion_matrices.png)
-![Learning Curves](outputs/learning_curves.png)
-![All Metrics](outputs/all_metrics_comparison.png)
 
 ---
 
@@ -202,4 +201,4 @@ Open `http://localhost:3000`
 
 ## License
 
-MIT
+This project is licensed under the MIT License.
