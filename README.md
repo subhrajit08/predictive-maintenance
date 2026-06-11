@@ -92,20 +92,20 @@ Evaluation: 5-Fold Stratified Cross Validation
 
 Flask REST API serving the trained Random Forest model.
 
-**Endpoints:**
+**Live API**: https://predictive-maintenance-api-tqzv.onrender.com
 
-| Method | Endpoint         | Description                        |
-|--------|------------------|------------------------------------|
-| GET    | /health          | API status check                   |
-| POST   | /predict         | Single row prediction              |
-| POST   | /predict_batch   | Batch prediction for full engine   |
+| Method | Endpoint         | Description                      |
+|--------|------------------|----------------------------------|
+| GET    | /health          | API status check                 |
+| POST   | /predict         | Single row prediction            |
+| POST   | /predict_batch   | Batch prediction for full engine |
 
 **Run locally:**
 ```bash
 cd backend
-pip install -r ../requirements.txt
-python train_regressor.py   # generates rul_model.pkl
-python app.py               # starts on port 5000
+pip install -r requirements.txt
+python train_regressor.py
+python app.py
 ```
 
 ---
@@ -114,15 +114,17 @@ python app.py               # starts on port 5000
 
 React dashboard built with Recharts and Vite.
 
+**Live Dashboard**: https://predictive-maintenance-dusky-iota.vercel.app
+
 **Pages:**
 - Dashboard — model performance comparison, F1 chart, radar metrics, class distribution
-- Predict — enter sensor values manually, get real-time health prediction with RUL estimate and probability breakdown
+- Predict — upload `train_FD001.txt` or enter sensor values manually, get real-time health prediction with RUL estimate and probability breakdown
 
 **Run locally:**
 ```bash
 cd frontend
 npm install
-npm run dev     # starts on port 3000
+npm run dev
 ```
 
 ---
@@ -135,11 +137,12 @@ git clone https://github.com/subhrajit08/predictive-maintenance.git
 cd predictive-maintenance
 
 # 2. Download dataset
+# Place train_FD001.txt in data/
 
 # 3. Install Python dependencies
 pip install -r requirements.txt
 
-# 4. Train models (from notebook or directly)
+# 4. Train RUL model
 cd backend
 python train_regressor.py
 
@@ -153,6 +156,15 @@ npm run dev
 ```
 
 Open `http://localhost:3000`
+
+---
+
+## Deployment
+
+| Service  | Platform | URL |
+|----------|----------|-----|
+| Frontend | Vercel   | https://predictive-maintenance-dusky-iota.vercel.app |
+| Backend  | Render   | https://predictive-maintenance-api-tqzv.onrender.com |
 
 ---
 
