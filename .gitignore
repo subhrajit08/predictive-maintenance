@@ -13,11 +13,6 @@ main.py
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# ML models
-backend/best_model.pkl
-backend/scaler.pkl
-backend/rul_model.pkl
-
 # Data
 data/train_FD001.txt
 
