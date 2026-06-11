@@ -4,9 +4,6 @@ __pycache__/
 .venv/
 *.egg-info/
 
-# Serialized Models — large files, add to Git LFS or store externally
-*.pkl
-
 # Environment
 .env
 
