@@ -1,4 +1,4 @@
-# Predictive Maintenance for CNC Machines
+# Predictive Maintenance for Industrial Turbofan Engines
 
 End-to-end machine learning system that classifies turbofan engine health into three states — Normal, Warning, and Critical — using NASA CMAPSS sensor data. Built with a full ML pipeline, REST API, and interactive React dashboard.
 
