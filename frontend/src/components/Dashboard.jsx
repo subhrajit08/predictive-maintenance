@@ -90,7 +90,7 @@ export default function Dashboard() {
             {/* Stat Cards */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1rem", marginBottom: "2rem" }}>
                 <StatCard label="Best Model" value="RF" sub="Random Forest" color="#3B82F6" />
-                <StatCard label="Best F1" value="96.6%" sub="Macro F1 Score" color="#10B981" />
+                <StatCard label="Best F1" value="86.3%" sub="Macro F1 Score" color="#10B981" />
                 <StatCard label="Total Samples" value="20.6k" sub="Engine cycles" color="#F59E0B" />
                 <StatCard label="Classes" value="3" sub="Normal / Warning / Critical" color="#EF4444" />
             </div>
