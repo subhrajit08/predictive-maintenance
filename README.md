@@ -75,16 +75,16 @@ SMOTE applied only on training folds inside cross-validation to prevent data lea
 
 | Model             | Accuracy | Precision | Recall | F1 Score |
 |-------------------|----------|-----------|--------|----------|
-| Random Forest     | 96.59%   | 96.64%    | 96.59% | 96.60%   |
-| SVM               | 96.25%   | 96.34%    | 96.25% | 96.25%   |
-| Gradient Boosting | 95.27%   | 95.29%    | 95.27% | 95.28%   |
-| XGBoost           | 95.24%   | 95.28%    | 95.24% | 95.25%   |
-| KNN               | 92.85%   | 93.96%    | 92.85% | 92.79%   |
-| Decision Tree     | 86.84%   | 87.11%    | 86.84% | 86.89%   |
+| Random Forest     | 91.67%   | 85.66%    | 87.06% | 86.30%   |
+| SVM               | 89.68%   | 82.56%    | 83.87% | 83.14%   |
+| Gradient Boosting | 91.35%   | 85.26%    | 85.55% | 85.40%   |
+| XGBoost           | 91.17%   | 84.71%    | 85.99% | 85.31%   |
+| KNN               | 81.90%   | 75.95%    | 84.99% | 77.99%   |
+| Decision Tree     | 86.28%   | 78.21%    | 82.62% | 79.72%   |
 
 Evaluation: 5-Fold Stratified Cross Validation
 
-**Best Model: Random Forest — 96.60% Macro F1**
+**Best Model: Random Forest — 86.30% Macro F1**
 
 ---
 

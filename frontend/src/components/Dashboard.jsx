@@ -6,19 +6,19 @@ import {
 } from "recharts"
 
 const modelData = [
-    { model: "Random Forest", accuracy: 0.9659, precision: 0.9664, recall: 0.9659, f1: 0.9660 },
-    { model: "SVM", accuracy: 0.9625, precision: 0.9634, recall: 0.9625, f1: 0.9625 },
-    { model: "Gradient Boosting", accuracy: 0.9527, precision: 0.9529, recall: 0.9527, f1: 0.9528 },
-    { model: "XGBoost", accuracy: 0.9524, precision: 0.9528, recall: 0.9524, f1: 0.9525 },
-    { model: "KNN", accuracy: 0.9285, precision: 0.9396, recall: 0.9285, f1: 0.9279 },
-    { model: "Decision Tree", accuracy: 0.8684, precision: 0.8711, recall: 0.8684, f1: 0.8689 },
+    { model: "Random Forest", accuracy: 0.9167, precision: 0.8566, recall: 0.8706, f1: 0.8630 },
+    { model: "SVM", accuracy: 0.8968, precision: 0.8256, recall: 0.8387, f1: 0.8314 },
+    { model: "Gradient Boosting", accuracy: 0.9135, precision: 0.8526, recall: 0.8555, f1: 0.8540 },
+    { model: "XGBoost", accuracy: 0.9117, precision: 0.8471, recall: 0.8599, f1: 0.8531 },
+    { model: "KNN", accuracy: 0.8190, precision: 0.7595, recall: 0.8499, f1: 0.7799 },
+    { model: "Decision Tree", accuracy: 0.8628, precision: 0.7821, recall: 0.8262, f1: 0.7972 },
 ]
 
 const radarData = [
-    { metric: "Accuracy", value: 0.9659 },
-    { metric: "Precision", value: 0.9664 },
-    { metric: "Recall", value: 0.9659 },
-    { metric: "F1 Score", value: 0.9660 },
+    { metric: "Accuracy", value: 0.9167 },
+    { metric: "Precision", value: 0.8566 },
+    { metric: "Recall", value: 0.8706 },
+    { metric: "F1 Score", value: 0.8630 },
 ]
 
 const classData = [
